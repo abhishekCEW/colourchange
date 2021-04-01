@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#text{
+    margin-top: 100px;
+}
+#button{
+    margin: 100px;
+    padding: 30px 50px;
+    border: none;
+    outline: none;
+}
+#button:hover{
+    border-radius: 3em;
+    transition-duration: 1s;
+    border-style: none;
+}
+#pokemon{
+    margin-top: 50px;
+    height: 100px;
+    width: 100px;
+}
